@@ -414,7 +414,7 @@ img {
 }
 
 .projectBtn button {
-    padding: 0.35rem 1rem;
+    padding: 0.6rem 1.5rem;
     border: 1px solid gray;
     outline: none;
     background-color: transparent;
@@ -448,7 +448,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 100vh;
     flex-direction: column;
     gap: 10px;
     position: relative;
@@ -555,9 +555,11 @@ img {
     .main {
         text-align: center;
         flex-direction: column;
-        justify-content: center;
+        justify-content:flex-start;
         align-items: center;
         gap: 0px;
+        margin-top: 6rem;
+        height: 90vh;
     }
 
     .about h3 {
@@ -581,6 +583,10 @@ img {
     }
     .project h1 {
         font-size: 2rem;
+    }
+
+    .contact {
+        height: 70vh;
     }
 
     .contact h3{
@@ -684,6 +690,8 @@ img {
         align-items: center;
         flex-direction: column;
     }
+
+    
 
 
 }
