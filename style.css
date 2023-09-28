@@ -103,10 +103,13 @@ img {
     display: flex;
     justify-content: center; 
     transition: .3s all ease-in;
+    animation: animate 1.3s linear infinite alternate;
 }
 
-.img:hover {
-    transform: rotate(5deg);
+@keyframes animate {
+    to {
+        transform: translateY(10px);
+    }
 }
 
 .img img {
