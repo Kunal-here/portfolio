@@ -890,7 +890,7 @@ img {
         font-size: 1.5rem;
     }
     .intro {
-        gap: 0;
+        gap: 10px;
     }
     .btns button {
         padding: .5rem 1rem;
