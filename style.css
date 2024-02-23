@@ -688,7 +688,7 @@ img {
     ul.hamActive {
         display: flex;
         flex-direction: column;
-        top: 20%;
+        top: 15%;
         height: 100vh;
         gap: 50px;
         color: black;
@@ -727,7 +727,7 @@ img {
         align-items: center;
         text-align: center;
         gap: 10px;
-        margin-top: 5rem;
+        margin-top: 3rem;
         height: 90vh;
     }
     .intro {
